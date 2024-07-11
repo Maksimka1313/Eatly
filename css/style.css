@@ -1,0 +1,119 @@
+/*========================General rules=================*/
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*========================General rules=================*/
+
+
+/*========================Header rules=================*/
+
+.header {
+    margin: 0 auto;
+    padding-top: 47px;
+}
+
+.conteiner {
+    max-width: 1248px;
+    margin: 0 auto;
+
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 111.94px;
+    height: 42.31px;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.nav__bar {
+    padding-left: 63px;
+}
+
+.menu__items {
+    display: flex;
+    gap: 53.49px;
+}
+
+.menu__item {
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    font-size: 17.83px;
+    font-weight: 500;
+    line-height: 26.74px;
+    text-align: left;
+
+}
+
+.menu_link {
+    text-decoration: none;
+    color: #606060;
+}
+
+.button__menu {
+    margin-left: auto;
+    display: flex;
+    gap: 36.14px;
+    align-items: baseline;
+}
+
+.btn-1 {
+    font-family: "Inter", sans-serif;
+    font-size: 17.83px;
+    font-weight: 700;
+    line-height: 26.74px;
+    text-align: left;
+    border: none;
+    color: #606060;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.btn-2 {
+    width: 121.49px;
+    height: 62.66px;
+    padding: 17.83px 26.74px 17.83px 26.74px;
+    border-radius: 17.83px;
+    background-color: #6C5FBC;
+    border: none;
+    color: #F9F9F9;
+    font-family: "Inter", sans-serif;
+    font-size: 17.83px;
+    font-weight: 700;
+    line-height: 26.74px;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+
+
+}
+
+.line-header {
+    margin-top: 24px;
+    border: 1px solid #CBCBCB
+}

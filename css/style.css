@@ -953,3 +953,244 @@ body {
 
 
 }
+
+
+
+.purchases__main {
+    display: flex;
+    padding-top: 52px;
+    justify-content: space-between;
+}
+
+.block_one {
+    width: 570.71px;
+    height: 460px;
+
+}
+
+.purchases__title {
+    width: 559.71px;
+    height: 117px;
+
+
+}
+
+.title__purchases {
+    font-family: "Poppins";
+    font-size: 50.92px;
+    font-weight: 700;
+    line-height: 58.2px;
+    text-align: left;
+    color: #18181B;
+    margin-left: 11px;
+
+
+}
+
+.purchases_1 {
+    color: #6C5FBC;
+}
+
+.purchases_cards {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 15px;
+    width: 345.17px;
+    height: 88.3px;
+    margin-top: 47px;
+
+
+}
+
+.purchases_card {
+    display: inline-flex;
+    width: 345.17px;
+    height: 88.3px;
+    border-radius: 12.04px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 20.07px 30.1px 0px #4646461A;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.purchases_card:hover {
+    transform: scale(1.1);
+}
+
+
+.purchases__img {
+    padding-left: 18px;
+    padding-top: 4px;
+}
+
+
+
+.purchases__info {
+    padding-left: 18px;
+}
+
+.purchases__text-1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19.06px;
+    font-weight: 600;
+    line-height: 26.69px;
+    text-align: left;
+    color: #323142;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+.purchses__text-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 12.04px;
+    font-weight: 500;
+    line-height: 16.86px;
+    text-align: left;
+    color: #323142;
+    margin-top: 4px;
+}
+
+.purchases__data {
+    flex: 1;
+    justify-items: end;
+    align-content: end;
+}
+
+.purchases__time {
+    text-align: right;
+    font-family: "Poppins", sans-serif;
+    font-size: 13.04px;
+    font-weight: 500;
+    line-height: 18.26px;
+    color: #ACADB9;
+    margin-bottom: 9px;
+    margin-right: 17px;
+}
+
+.color-red {
+    color: #F1534E;
+}
+
+.two_block {
+    width: 534px;
+    height: 466.46px;
+    margin-top: 35px;
+    padding-top: 24px;
+    padding-left: 39px;
+    padding-right: 39px;
+    background-color: #FFFFFF;
+    border: 1.57px solid #EDF2F7;
+    border-radius: 25.13px;
+    box-shadow: 0px 20.07px 30.1px 0px #4646461A;
+}
+
+.two_block-title {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.purchases_block_text {
+    font-family: 'Manrope', sans-serif;
+    font-size: 28.27px;
+    font-weight: 800;
+    line-height: 38.17px;
+    letter-spacing: 0.3141176700592041px;
+    text-align: left;
+    color: #1A202C;
+}
+
+.purchases__form {
+    width: 175.91px;
+    height: 53.4px;
+    align-self: center;
+    font-family: "Manrope", sans-serif;
+    font-size: 18.85px;
+    font-weight: 600;
+    line-height: 28.27px;
+    letter-spacing: 0.6282353401184082px;
+    color: #1A202C;
+    padding-left: 14px;
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 12.56px;
+    cursor: pointer;
+}
+
+.two_block-cards {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 21px;
+}
+
+.card-indo-10 {
+    width: 458.61px;
+    height: 135.07px;
+    padding-top: 1px;
+    border: 1.57px solid #EDF2F7;
+    border-radius: 18.85px;
+}
+
+.two_block-card {
+    display: flex;
+    width: 450px;
+    height: 55.14px;
+    margin-top: 22px;
+}
+
+
+.block-card {
+    padding-top: 4px;
+    padding-left: 21px;
+}
+
+.block-card-info {
+    padding-top: 2px;
+    padding-left: 19px;
+}
+
+.block-card-text-1 {
+    font-family: "Manrope", sans-serif;
+    font-size: 18.85px;
+    font-weight: 800;
+    line-height: 28.27px;
+    letter-spacing: 0.6282353401184082px;
+    text-align: left;
+    color: #1A202C;
+    margin-bottom: 1px;
+    margin-top: 0px;
+}
+
+.block-card-text-2 {
+    margin-top: 4px;
+    font-family: "Manrope", sans-serif;
+    font-size: 15.71px;
+    font-weight: 500;
+    line-height: 23.56px;
+    letter-spacing: 0.6282353401184082px;
+    text-align: left;
+    color: #A0AEC0;
+}
+
+.block-price-card {
+    flex: 1;
+}
+
+.price-card-item {
+    font-family: "Manrope";
+    font-size: 21.99px;
+    font-weight: 800;
+    line-height: 32.98px;
+    letter-spacing: 0.3141176700592041px;
+    text-align: right;
+    color: #1A202C;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.block-line-card {
+    padding-top: 21px;
+    padding-left: 21px;
+}
